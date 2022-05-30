@@ -1,0 +1,15 @@
+
+
+.App {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+body{
+  font-family: 'nanumsquare';
+}
+
+h1{
+  color: whitesmoke;
+}

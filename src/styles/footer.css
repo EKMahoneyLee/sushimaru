@@ -1,0 +1,133 @@
+.footer-container{
+    background-color: black;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-container .column {
+    display:inline-block;
+    width: 33.333%;
+    min-height: 150px;
+    padding: 0 0 0 0;
+  }
+
+  .copyright{
+      color: gray;
+      margin-top: -90px;
+      padding-bottom: 100px;
+      margin-bottom: 0;
+  }
+
+  .text1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Smooch', cursive;
+    color: blanchedalmond;
+    font-size: 145px;
+    line-height: 130px;
+    margin-top: 0;
+  }
+
+  .container-middle{
+      display: flex;
+      flex-direction: column;  
+  }
+
+ .footer-title{
+      text-transform: uppercase;
+      font-weight: 900;
+      font-family: 'CeraPRO-Medium';
+  }
+
+  .number{
+      color: chocolate;
+      font-weight: 900;
+      font-size: 20px;
+  }
+
+  .address-time{
+      color: gray;
+      font-weight: 700;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .footer-container #first {order: 1;}
+    .footer-container #second {order: 3;}
+    .footer-container #third {order: 2;}
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text1{
+        margin: 0 0 90px 0;
+        font-size: 70px;
+        width: 400px;
+    }
+
+    .container-middle{
+        align-items: center;  
+    }
+  }
+
+@media only screen and (min-width: 600px) {
+   
+    .footer-container #first {order: 1;}
+    .footer-container #second {order: 3;}
+    .footer-container #third {order: 2;}
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .container-middle{
+        align-items: center;  
+    }
+
+    div#first {
+        padding-bottom: 20px;
+    }
+
+    .text1{
+        margin: 0 0 60px 0;
+        font-size: 80px;
+        width: 400px;
+    } 
+    .copyright{
+       width: 100%;
+    } 
+}
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .footer-container #first {order: 1;}
+    .footer-container #second {order: 3;}
+    .footer-container #third {order: 2;}
+}
+
+@media only screen and (min-width: 992px) {
+
+    .footer-container{
+        flex-direction: row;
+        padding: 75px 0;
+        align-items: flex-start;
+    }
+
+    .footer-container #first {order: 1;}
+    .footer-container #second {order: 2;}
+    .footer-container #third {order: 3;} 
+
+    .text1{
+        margin: 0 0 150px 0;
+        font-size: 105px;
+        line-height: 100px;
+    } 
+} 
+  

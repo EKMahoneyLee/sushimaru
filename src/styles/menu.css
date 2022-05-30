@@ -1,0 +1,53 @@
+
+.containerM{
+    background-color: rgb(211, 211, 211, 0.2);
+    padding: 100px 0 150px 0;
+}
+
+.menu{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.notice-con{
+    background-color: rgb(211, 211, 211, 0.9);
+    padding: 20px 10px;
+}
+
+
+.notice{
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        width: 100%;
+        margin-bottom: 10px 0;
+    }
+
+    .notice-con{
+        margin: -70px 0 0 0;
+    }
+
+  
+}
+
+@media only screen and (min-width: 600px) {
+    .menu{
+        width: 100%;
+        margin-bottom: 10px 0;
+    }
+
+ 
+}
+    
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+@media only screen and (min-width: 992px) {
+   
+} 
