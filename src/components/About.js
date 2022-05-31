@@ -1,7 +1,5 @@
 import React from "react";
-import '../styles/about.css';
-import icon from '../assets/icons/i.png'
-
+import '../styles/about.css'; 
 
 const About = () => {
   return (
