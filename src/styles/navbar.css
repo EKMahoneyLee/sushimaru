@@ -72,15 +72,16 @@ p{
     background-attachment: fixed;
     z-index: -3;
     /* The image used */
-    background-image: url("../assets/images/2.jpg");
+    /* background-image: url("../assets/images/2.jpg"); */
+    background-image: url("../assets/images/4.jpg");
   
     /* Full height */
-    height: 900px; 
+    height: 100vh; 
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto ;
+    background-size: cover ;
   }
 
 @media only screen and (max-width: 600px) {

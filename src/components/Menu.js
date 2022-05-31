@@ -2,25 +2,36 @@ import React from "react";
 import '../styles/menu.css';
 import { Carousel } from 'react-carousel-minimal';
 
-import ima from '../assets/images/menu.jpg';
-import ima1 from '../assets/images/menu-1.jpg';
-import ima2 from '../assets/images/menu-2.jpg';
+import m1 from '../assets/images/m1.jpg';
+import m2 from '../assets/images/m2.jpg';
+import m3 from '../assets/images/m3.jpg';
+import m4 from '../assets/images/m4.jpg';
+import m5 from '../assets/images/m5.jpg';
 
 
 const Menu = () => {
   const data = [
       {
-          image: ima,
-          caption: 'sushi'
+          image: m1,
+          caption: 'Appetizers'
       },
       {
-          image: ima2,
-          caption: 'udon'
+          image: m2,
+          caption: 'Sushi'
       },
       {
-          image: ima1,
-          caption: 'drinks'
-      }
+          image:m4,
+          caption: 'Noodle'
+      },
+      {
+        image: m3,
+        caption: 'Drinks'
+    },
+    {
+        image: m5,
+
+        caption: 'Only For Takeout'
+    }
   ]
 
   const captionStyle = {
@@ -36,17 +47,17 @@ const Menu = () => {
     <>
       <div className="containerM">
         <div className="menu">
-          <h1 className="g-title">Our Menu</h1>
+          <h1 className="m-title">Our Menu</h1>
           <hr className="line" />
-          <h1 className="g-store">Sushi Maru</h1>
+          <h1 className="m-store">Sushi Maru</h1>
               
           <Carousel
             data={data}
             time={2000000000}
-            width="1200px"
-            height="600px"
+            width="800px"
+            height="900px"
             captionStyle={captionStyle}
-            radius="10px"
+            // radius="10px"
             slideNumber={true}
             slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"
@@ -57,11 +68,10 @@ const Menu = () => {
             slideBackgroundColor="darkgrey"
             slideImageFit="cover"
             thumbnails={true}
-            thumbnailWidth="100px"
+            thumbnailWidth="50px"
             style={{
               textAlign: "center",
-              maxWidth: "1200px",
-              maxHeight: "600px",
+              maxWidth: "700px",
               margin: "0 auto",
             }}
           /> 
