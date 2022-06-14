@@ -19,11 +19,11 @@ const data = [
     image: '/images/m5.jpg',
     caption: 'Sushi'
   }, {
-    image: '/images/m1.jpg',
+    image: '/images/m6.jpg',
     caption: 'Appetizers'
   },
   {
-    image: '/images/m2.jpg',
+    image: '/images/m7.jpg',
     caption: 'Sushi'
   },
   {
@@ -33,49 +33,6 @@ const data = [
   {
     image: '/images/m4.jpg',
     caption: 'Drinks'
-  },
-  {
-    image: '/images/m5.jpg',
-    caption: 'Sushi'
-  },
-  {
-    image: '/images/m1.jpg',
-    caption: 'Appetizers'
-  },
-  {
-    image: '/images/m2.jpg',
-    caption: 'Sushi'
-  },
-  {
-    image:'/images/m3.jpg',
-    caption: 'Noodle'
-  },
-  {
-    image: '/images/m4.jpg',
-    caption: 'Drinks'
-  },
-  {
-    image: '/images/m5.jpg',
-    caption: 'Sushi'
-  }, {
-    image: '/images/m1.jpg',
-    caption: 'Appetizers'
-  },
-  {
-    image: '/images/m2.jpg',
-    caption: 'Sushi'
-  },
-  {
-    image:'/images/m3.jpg',
-    caption: 'Noodle'
-  },
-  {
-    image: '/images/m4.jpg',
-    caption: 'Drinks'
-  },
-  {
-    image: '/images/m5.jpg',
-    caption: 'Sushi'
   }
 ]
 

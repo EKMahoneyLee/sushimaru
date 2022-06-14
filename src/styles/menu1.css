@@ -1,0 +1,91 @@
+.containerM1{
+    background-color: rgb(0,0,0);
+    /* background-color: rgb(211, 211, 211, 0.9); */
+    padding: 100px 0 50px 0;
+    /* max-height: 1300px; */
+}
+
+article {
+    margin: 20px 35px 0 35px;
+  }
+
+#panels {
+	margin: 30px 0 0 0;
+}
+
+#panels nav {
+	margin-bottom: -1px;
+}
+
+#panels nav::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#panels label {
+	cursor: pointer;
+	display: inline-block;
+	color: #ef9d26;
+    font-weight: 700;
+    font-size: 1.5em;
+	padding: 10px 25px;
+	border: 1px solid #ef9d26;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	float: left;
+	transition: background-color .3s;
+}
+
+#panels label:hover {
+	background-color: rgba(255,255,255,.1);
+}
+
+#panels > div {
+	background-color: rgba(0,0,0,.6);
+	border: 1px solid #ef9d26;
+	padding: 20px;
+	display: none;
+}
+
+#panels input {
+	display: none;
+}
+
+#panels > input[id="appetizer"]:checked ~ nav label[for="appetizer"],
+#panels > input[id="noodle"]:checked ~ nav label[for="noodle"],
+#panels > input[id="takeout"]:checked ~ nav label[for="takeout"] {
+	background-color: #ef9d26;
+	color: #fff;
+}
+
+#panels > input[id="appetizer"]:checked ~div[id="panel1"],
+#panels > input[id="noodle"]:checked ~div[id="panel2"],
+#panels > input[id="takeout"]:checked ~div[id="panel3"] {
+	display: block;
+}
+
+p {
+    color: #fff;
+}
+
+#panel2{
+	margin: 0 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.eachbox {
+	flex-basis: 0;
+	flex-grow: 1;
+	padding: 18px;
+}
+
+.price {
+	display: flex;
+	flex-direction: row;	
+}
+
+/* p {
+	float: left;
+} */

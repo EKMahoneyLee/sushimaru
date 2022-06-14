@@ -18,13 +18,12 @@ class Gallery extends React.Component {
     return (
       <div className='containerG'>
         <div>
-            <h1 className="g-title">Our Gallery</h1>
+            <h1 className="g-title">The Gallery</h1>
             <hr className="line" />
-            <h1 className="g-store">Sushi Maru</h1>
         </div>
         {data.map((item, i) => 
           <button key={i} calssname="popup_original" onClick={this.togglePopup.bind(this)}>
-            <img src={item.image} width="250" height="250" alt="no-images" />
+            <img src={item.image} width="350" height="350" alt="no-images" />
             <div className="bottom-left"> { item.caption } </div>
           </button>
         )}

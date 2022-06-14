@@ -44,46 +44,42 @@ const Menu = () => {
     }
       
   return (
-    <>
-      <div className="containerM">
-        <div className="menu">
-          <h1 className="m-title">Our Menu</h1>
-          <hr className="line" />
-          <h1 className="m-store">Sushi Maru</h1>
-              
-          <Carousel
-            data={data}
-            time={2000000000}
-            width="800px"
-            height="900px"
-            captionStyle={captionStyle}
-            // radius="10px"
-            slideNumber={true}
-            slideNumberStyle={slideNumberStyle}
-            captionPosition="bottom"
-            // automatic={true}
-            dots={true}
-            pauseIconColor="white"
-            pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
-            slideImageFit="cover"
-            thumbnails={true}
-            thumbnailWidth="50px"
-            style={{
-              textAlign: "center",
-              maxWidth: "700px",
-              margin: "0 auto",
-            }}
-          /> 
-        </div>
-
-        <div className="notice-con">
-            <p className="notice">All items & prices are <strong>subject to change without notice.</strong></p> 
-            <p className="notice bottom"> Please advise your server of food allergies.
-            Please do not eat or use decorative fire</p>   
-        </div>
-      </div> 
-    </>
+    <div className="containerM">
+      <div className="menu">
+        <h1 className="m-title">The Menu</h1>
+        <hr/>
+            
+        <Carousel
+          data={data}
+          time={2000000000}
+          width="800px"
+          height="500px"
+          // object-fit= 'cover'
+          captionStyle={captionStyle}
+          // radius="10px"
+          slideNumber={true}
+          slideNumberStyle={slideNumberStyle}
+          captionPosition="bottom"
+          // automatic={true}
+          dots={true}
+          pauseIconColor="white"
+          pauseIconSize="40px"
+          slideBackgroundColor="darkgrey"
+          slideImageFit="cover"
+          thumbnails={true}
+          thumbnailWidth="50px"
+          style={{
+            textAlign: "center",
+            maxWidth: "700px",
+            margin: "0 auto",
+          }}
+        /> 
+      <div className="notice-con">
+          <p className="notice">All items & prices are <strong>subject to change without notice.</strong></p> 
+          <p className="notice bottom"> Please advise your server of food allergies.</p>   
+      </div>
+      </div>
+    </div> 
   )
 }
 
