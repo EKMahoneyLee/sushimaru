@@ -29,7 +29,6 @@ const Menu = () => {
     },
     {
         image: m5,
-
         caption: 'Only For Takeout'
     }
   ]
@@ -47,13 +46,12 @@ const Menu = () => {
     <div className="containerM">
       <div className="menu">
         <h1 className="m-title">The Menu</h1>
-        <hr/>
             
         <Carousel
           data={data}
           time={2000000000}
-          width="800px"
-          height="500px"
+          width="1000px"
+          height="600px"
           // object-fit= 'cover'
           captionStyle={captionStyle}
           // radius="10px"
@@ -67,10 +65,10 @@ const Menu = () => {
           slideBackgroundColor="darkgrey"
           slideImageFit="cover"
           thumbnails={true}
-          thumbnailWidth="50px"
+          thumbnailWidth="75px"
           style={{
             textAlign: "center",
-            maxWidth: "700px",
+            maxWidth: "1000px",
             margin: "0 auto",
           }}
         /> 
