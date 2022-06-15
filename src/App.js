@@ -20,12 +20,7 @@ function App() {
 
   return (
     <div className="App">  
-      <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
-        <div >
-          <h1 className='neon'> Opening <span>Soon</span></h1>
-        </div>
-      </Popup>
-
+      <Popup trigger={timedPopup} setTrigger={setTimedPopup} />
       <Navbar />     
       <About />
       <Gallery />

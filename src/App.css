@@ -17,22 +17,3 @@ h1{
 p{
   color: white;
 }
-
-
-
-.neon {
-  font-family: 'Warnes', cursive;
-  font-size: 10rem;
-  text-shadow:
-		-2px -2px 10px #fff,
-		2px 2px 10px #fff,
-		0 0 20px #ff00de,
-		0 0 40px #ff00de,
-		0 0 60px #ff00de,
-		0 0 80px #ff00de,
-		0 0 100px #ff00de
-		;
-}
-
-/* 8000ff */
-
