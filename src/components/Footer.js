@@ -6,14 +6,13 @@ const Footer = () => {
         <div className="footer-container">
             <div className="column" id="first">
                 <p className="footer-title">Contact</p>
-                <p className="number">902.406.8866</p>
+                <a href="tel:19024068666" className="number"><b>Call us at (902) 406-8666</b></a>
                 <p className="address-time">1475 Bedford Hwy#111, Bedford, </p>
                 <p className="address-time">NS B4A 3Z5</p>
 
             </div>
             <div className="column" id="second">
             <div className=" container-middle" id="second">
-                {/* <img className="icon" src={icon} alt="Choose a Program" /> */}
                 <h1 className="text1">Sushi Maru</h1>     
                 <p className="copyright">Copyright © Sushi Maru {new Date().getFullYear()}. All Rights Reserved.</p>
             </div>

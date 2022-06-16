@@ -41,11 +41,19 @@
       font-family: 'CeraPRO-Medium';
   }
 
-  .number{
+  a.number{
       color: chocolate;
       font-weight: 900;
       font-size: 20px;
+      text-decoration: none;
   }
+
+  a[href^="tel"] {
+	font-size: 1.1em;
+	background: url(../assets/icons/icon_phone.svg) no-repeat 7px 7px;
+	background-size: 18px 18px;
+	padding: 7px 0 7px 35px;
+}
 
   .address-time{
       color: gray;
