@@ -25,7 +25,7 @@ function App() {
       <About />
       <Gallery />
       <Menu />
-      {/* <Menu1 /> */}
+      <Menu1 />
       <Footer />
     </div>
   );

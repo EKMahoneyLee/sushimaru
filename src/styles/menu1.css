@@ -89,3 +89,18 @@ p {
 /* p {
 	float: left;
 } */
+
+.menu-container{
+	position: relative;
+	text-align: center;
+	color: red;
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.top-left {
+	position: absolute;
+	top: 5%;
+	left: 45%;
+  }

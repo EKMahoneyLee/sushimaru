@@ -1,7 +1,8 @@
 import React from "react";
 import '../styles/menu1.css';
+import Pdf from '../assets/NMT.pdf'
 
-// import m1 from '../assets/images/m1.jpg';
+import m1 from '../assets/images/m1.jpg';
 // import m2 from '../assets/images/m2.jpg';
 // import m3 from '../assets/images/m3.jpg';
 // import m4 from '../assets/images/m4.jpg';
@@ -66,6 +67,12 @@ const Menu1 = () => {
             </div>
         </div>
       </article>
+      <div className="menu-container">
+      <a  href = {Pdf} target = "_blank"><img className="image-container"  src={m1} width="350" height="350" alt="no-images" /></a>
+      <div class="top-left">Main Menu</div>
+      </div>
+      {/* <a href = {Pdf} target = "_blank">View the Menu</a> */}
+
     </div> 
   )
 }
