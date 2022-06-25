@@ -12,7 +12,7 @@ const Gallery1 = () => {
   return (
     <div className="menu-container">
       <div className="title-container">
-         <h1 className="gallery-title">The gallery1</h1>
+         <h1 className="gallery-title">Our Menu</h1>
       </div>
       <div className="container">
       <div className="box">
