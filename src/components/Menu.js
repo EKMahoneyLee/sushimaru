@@ -1,84 +1,38 @@
 import React from "react";
 import '../styles/menu.css';
-import { Carousel } from 'react-carousel-minimal';
 
 import m1 from '../assets/images/m1.jpg';
 import m2 from '../assets/images/m2.jpg';
 import m3 from '../assets/images/m3.jpg';
 import m4 from '../assets/images/m4.jpg';
-import m5 from '../assets/images/m5.jpg';
+// import m5 from '../assets/images/m5.jpg';
 
 
-const Menu = () => {
-  const data = [
-      {
-          image: m1,
-          caption: 'Appetizers'
-      },
-      {
-          image: m2,
-          caption: 'Sushi'
-      },
-      {
-          image:m4,
-          caption: 'Noodle'
-      },
-      {
-        image: m3,
-        caption: 'Drinks'
-    },
-    {
-        image: m5,
-        caption: 'Only For Takeout'
-    }
-  ]
-
-  const captionStyle = {
-      fontSize: '2em',
-      fontWeight: 'bold',
-    }
-    const slideNumberStyle = {
-      fontSize: '20px',
-      fontWeight: 'bold',
-    }
-      
+const Gallery1 = () => {   
   return (
-    <div className="containerM">
-      <div className="menu">
-        <h1 className="m-title">The Gallery2</h1>
-            
-        <Carousel
-          data={data}
-          time={2000000000}
-          width="1000px"
-          height="600px"
-          // object-fit= 'cover'
-          captionStyle={captionStyle}
-          // radius="10px"
-          slideNumber={true}
-          slideNumberStyle={slideNumberStyle}
-          captionPosition="bottom"
-          // automatic={true}
-          dots={true}
-          pauseIconColor="white"
-          pauseIconSize="40px"
-          slideBackgroundColor="darkgrey"
-          slideImageFit="cover"
-          thumbnails={true}
-          thumbnailWidth="75px"
-          style={{
-            textAlign: "center",
-            maxWidth: "1000px",
-            margin: "0 auto",
-          }}
-        /> 
-      <div className="notice-con">
-          <p className="notice">All items & prices are <strong>subject to change without notice.</strong></p> 
-          <p className="notice bottom"> Please advise your server of food allergies.</p>   
-      </div>
-      </div>
-    </div> 
+    <div>
+      <h1 className="gallery-title">The gallery1</h1>
+    <div className="container">
+     <div className="box">
+        <img src={m1} alt="sushi"></img>
+        <span>Salmon Teriyaki</span>
+     </div>
+     <div className="box">
+        <img src={m2} alt="sushi"></img>
+        <span>Green onion Beef roll</span>
+     </div>
+     <div className="box">
+        <img src={m3} alt="sushi"></img>
+        <span>Squid Teriyaki</span>
+     </div>
+     <div className="box">
+        <img src={m4} alt="sushi"></img>
+        <span>Chicken Skewered</span>
+     </div>
+    </div>
+
+    </div>
   )
 }
 
-export default Menu;
+export default Gallery1;

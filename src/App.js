@@ -1,11 +1,8 @@
 import './App.css';
 import Popup from './components/Popup'
-import Navbar from './components/Navbar'
+import Main from './components/Main'
 import About from './components/About'
-// import Gallery from './components/Gallery'
-import Gallery1 from './components/Gallery1'
 import Menu from './components/Menu'
-import Menu1 from './components/Menu1'
 import Footer from './components/Footer';
 
 import { useState, useEffect } from 'react';
@@ -22,11 +19,9 @@ function App() {
   return (
     <div className="App">  
       <Popup trigger={timedPopup} setTrigger={setTimedPopup} />
-      <Navbar />     
+      <Main />     
       <About />
-      <Gallery1 />
       <Menu />
-      <Menu1 />
       <Footer />
     </div>
   );
