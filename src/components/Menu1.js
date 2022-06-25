@@ -69,17 +69,17 @@ const Menu1 = () => {
       <div className="menu-container">
       <h1 className="m-title-black">The Menu</h1>
         <div className="dine-container" >
-          <a  href = {Pdf} target = "_blank"><img  src={m1} width="450" height="450" alt="no-images" />
+          <a  href = {Pdf} target = "_blank" rel="noreferrer"><img  src={m1} width="450" height="450" alt="no-images" />
           <div class="dine">Dine-In</div>
           </a>
         </div>
         <div className="out-container">
-          <a  href = {Pdf} target = "_blank"><img   src={m1} width="450" height="450" alt="no-images" />
+          <a  href = {Pdf} target = "_blank" rel="noreferrer"><img   src={m1} width="450" height="450" alt="no-images" />
           <div class="out">Take-Out</div>
           </a>
         </div>
         <div className="special-container" >
-          <a  href = {Pdf} target = "_blank"><img  src={m1} width="450" height="450" alt="no-images" />
+          <a  href = {Pdf} target = "_blank" rel="noreferrer"><img  src={m1} width="450" height="450" alt="no-images" />
           <div class="special">Delivery</div>
           </a>
         </div>

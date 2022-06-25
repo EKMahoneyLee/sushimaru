@@ -14,19 +14,19 @@ const Gallery1 = () => {
       <h1 className="m-title-black">The gallery1</h1>
     <div className="container">
      <div className="box">
-        <img src={m1}></img>
+        <img src={m1} alt="sushi"></img>
         <span>Salmon Teriyaki</span>
      </div>
      <div className="box">
-        <img src={m2}></img>
+        <img src={m2} alt="sushi"></img>
         <span>Green onion Beef roll</span>
      </div>
      <div className="box">
-        <img src={m3}></img>
+        <img src={m3} alt="sushi"></img>
         <span>Squid Teriyaki</span>
      </div>
      <div className="box">
-        <img src={m4}></img>
+        <img src={m4} alt="sushi"></img>
         <span>Chicken Skewered</span>
      </div>
     </div>
