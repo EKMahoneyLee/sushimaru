@@ -18,7 +18,7 @@ class Gallery extends React.Component {
     return (
       <div className='containerG'>
         <div>
-            <h1 className="g-title">The Gallery</h1>
+            <h1 className="g-title">The Gallery2</h1>
             <hr className="line" />
         </div>
         {data.map((item, i) => 

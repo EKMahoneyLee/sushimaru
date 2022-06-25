@@ -1,6 +1,5 @@
 .bg {
     background-attachment: fixed;
-    /* z-index: -2; */
     background-image: url("../assets/images/main.jpg");
     height: 100vh; 
     background-position: center;
@@ -49,19 +48,7 @@ p.cuisine{
         font-size: 120px;
     }
 }
-  
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-    .iconBox > .icon{
-        width: 60px;
-        height:60px;
-    }
 
-    .iconBox >h1 {
-        font-size: 85px;
-    }
-} */
 
 @media only screen and (min-width: 992px) {
     p.cuisine{
@@ -76,9 +63,6 @@ h1.text {
     margin: 0;
     font-size: 250px;
     font-family: 'Dancing Script', cursive;
-    /* font-family: 'Sanchez', serif; */
-    /* font-family: 'Merienda', cursive; */
-    /* font-family: 'Smooch', cursive; */
 }
 } 
   

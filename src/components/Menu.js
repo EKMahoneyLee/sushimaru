@@ -45,7 +45,7 @@ const Menu = () => {
   return (
     <div className="containerM">
       <div className="menu">
-        <h1 className="m-title">The Menu</h1>
+        <h1 className="m-title">The Gallery2</h1>
             
         <Carousel
           data={data}
