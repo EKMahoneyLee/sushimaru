@@ -13,7 +13,7 @@ const Menu1 = () => {
   return (
     <div className="containerM1">
       <article>
-      <h1 className="m-title-black">The Menu</h1>
+
       <hr/>
         {/* <div id="panels">
             <input id="appetizer" type="radio" name="panel_select"  />
@@ -67,19 +67,20 @@ const Menu1 = () => {
             </div>
         </div> */}
       <div className="menu-container">
+      <h1 className="m-title-black">The Menu</h1>
         <div className="dine-container" >
-          <a  href = {Pdf} target = "_blank"><img  src={m1} width="350" height="350" alt="no-images" />
-          <div class="dine">Dine In</div>
-          </a>
-        </div>
-        <div className="special-container" >
-          <a  href = {Pdf} target = "_blank"><img  src={m1} width="350" height="350" alt="no-images" />
-          <div class="special">Special</div>
+          <a  href = {Pdf} target = "_blank"><img  src={m1} width="450" height="450" alt="no-images" />
+          <div class="dine">Dine-In</div>
           </a>
         </div>
         <div className="out-container">
-          <a  href = {Pdf} target = "_blank"><img   src={m1} width="350" height="350" alt="no-images" />
-          <div class="out">Takeout</div>
+          <a  href = {Pdf} target = "_blank"><img   src={m1} width="450" height="450" alt="no-images" />
+          <div class="out">Take-Out</div>
+          </a>
+        </div>
+        <div className="special-container" >
+          <a  href = {Pdf} target = "_blank"><img  src={m1} width="450" height="450" alt="no-images" />
+          <div class="special">Delivery</div>
           </a>
         </div>
       </div>      
