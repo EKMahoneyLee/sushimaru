@@ -28,7 +28,7 @@ h1.text {
         letter-spacing: 4px;
         margin: 0 15px 15px 15px;
     }
-    h1.text { font-size: 80px; }
+    h1.text { font-size: 70px; }
   }
 
 @media only screen and (min-width: 415px) {
@@ -36,7 +36,8 @@ h1.text {
         letter-spacing: 4px;
         margin: 0 15px 15px 15px;
     }
-    h1.text { font-size: 90px; }
+    h1.text { 
+        font-size: 90px; }
 }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
