@@ -14,7 +14,7 @@ const Menu1 = () => {
     <div className="containerM1">
       <article>
 
-      <hr/>
+      {/* <hr/> */}
         {/* <div id="panels">
             <input id="appetizer" type="radio" name="panel_select"  />
             <input id="noodle" type="radio" name="panel_select"  checked readOnly/>
@@ -70,17 +70,17 @@ const Menu1 = () => {
       <h1 className="m-title-black">The Menu</h1>
         <div className="dine-container" >
           <a  href = {Pdf} target = "_blank" rel="noreferrer"><img  src={m1} width="450" height="450" alt="no-images" />
-          <div class="dine">Dine-In</div>
+          <div className="dine">Dine-In</div>
           </a>
         </div>
         <div className="out-container">
           <a  href = {Pdf} target = "_blank" rel="noreferrer"><img   src={m1} width="450" height="450" alt="no-images" />
-          <div class="out">Take-Out</div>
+          <div className="out">Take-Out</div>
           </a>
         </div>
         <div className="special-container" >
           <a  href = {Pdf} target = "_blank" rel="noreferrer"><img  src={m1} width="450" height="450" alt="no-images" />
-          <div class="special">Delivery</div>
+          <div className="special">Delivery</div>
           </a>
         </div>
       </div>      

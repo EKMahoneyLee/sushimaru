@@ -11,7 +11,7 @@ import m4 from '../assets/images/m4.jpg';
 const Gallery1 = () => {   
   return (
     <div>
-      <h1 className="m-title-black">The gallery1</h1>
+      <h1 className="gallery-title">The gallery1</h1>
     <div className="container">
      <div className="box">
         <img src={m1} alt="sushi"></img>
