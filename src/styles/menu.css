@@ -29,6 +29,10 @@
   line-height: 0;
 }
 
+.box > a {
+  text-decoration: none;
+}
+
 .box  img {
   width: 200%;
   height: calc(100% - 10vh);
@@ -63,6 +67,6 @@
 
 @media only screen and (max-width: 414px) {
   .box {
-    margin: 0 10px 20px 10px;
+    margin: 0 0 20px 0;
   }
 }

@@ -18,19 +18,19 @@ const Gallery1 = () => {
       <div className="container">
          <div className="box">
             <a  href = {Pdf} target = "_blank" rel="noreferrer" ><img src={m1} alt="sushi" />
-               <span>Salmon Teriyaki</span>
+               <span>Dine-in</span>
             </a>
          </div>
 
          <div className="box">
             <a  href = {Pdf} target = "_blank" rel="noreferrer" ><img src={m2} alt="sushi" />
-               <span>Green onion Beef roll</span>  
+               <span>Take-out</span>  
             </a>
          </div>
 
          <div className="box">
             <a  href = {Pdf} target = "_blank" rel="noreferrer" ><img src={m3} alt="sushi" />
-               <span>Squid Teriyaki</span>    
+               <span>Delivery</span>    
             </a>
          </div>
       </div>
