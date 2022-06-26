@@ -1,5 +1,5 @@
 .menu-container {
-  padding: 0 0 50px 0;
+  /* padding: 0 0 50px 0; */
   background-color: rgba(242,241,239,.9);
 }
 
@@ -58,4 +58,11 @@
   text-transform: uppercase;
   font-family: 'Merienda', cursive;
 	width: 100%;
+}
+
+
+@media only screen and (max-width: 414px) {
+  .box {
+    margin: 0 10px 20px 10px;
+  }
 }
