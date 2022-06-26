@@ -52,10 +52,47 @@ text-shadow:
 margin: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
+    /* .popup {
+       
+        top: 0;
+        left: 0;
+        width: 390px;
+        height: 100vh;
+    } */
+
     .popup-inner {
-        padding: 30px;
-        max-width: 140px;
-      
+        max-width: 350px;
+        height: auto;
     }
+
+    .popup-inner .close-btn {
+        top: 36px;
+        right: 56px;
+    }
+
+    .neon {
+        font-size: 60px;
+    }
+}
+   
+
+@media only screen and (min-width: 415px) {
+   
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+} 
+
+@media only screen and (min-width: 992px) {
+
+} 
+
+@media only screen and (min-width: 1200px) {
+
 }
