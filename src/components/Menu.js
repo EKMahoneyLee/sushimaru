@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/menu.css';
+import Pdf from '../assets/NMT.pdf'
 
 import m1 from '../assets/images/m1.jpg';
 import m2 from '../assets/images/m2.jpg';
@@ -15,22 +16,23 @@ const Gallery1 = () => {
          <h1 className="gallery-title">Our Menu</h1>
       </div>
       <div className="container">
-      <div className="box">
-         <img src={m1} alt="sushi"></img>
-         <span>Salmon Teriyaki</span>
-      </div>
-      <div className="box">
-         <img src={m2} alt="sushi"></img>
-         <span>Green onion Beef roll</span>
-      </div>
-      <div className="box">
-         <img src={m3} alt="sushi"></img>
-         <span>Squid Teriyaki</span>
-      </div>
-      {/* <div className="box">
-         <img src={m4} alt="sushi"></img>
-         <span>Chicken Skewered</span>
-      </div> */}
+         <div className="box">
+            <a  href = {Pdf} target = "_blank" rel="noreferrer" ><img src={m1} alt="sushi" />
+               <span>Salmon Teriyaki</span>
+            </a>
+         </div>
+
+         <div className="box">
+            <a  href = {Pdf} target = "_blank" rel="noreferrer" ><img src={m2} alt="sushi" />
+               <span>Green onion Beef roll</span>  
+            </a>
+         </div>
+
+         <div className="box">
+            <a  href = {Pdf} target = "_blank" rel="noreferrer" ><img src={m3} alt="sushi" />
+               <span>Squid Teriyaki</span>    
+            </a>
+         </div>
       </div>
     </div>
   )

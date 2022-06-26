@@ -103,7 +103,20 @@ article.neon-text {
 } 
 
 @media only screen and (min-width: 992px) {
+    .popup-inner {
+        max-width: 400px;
+        height: auto;
+        padding: 30px;
+        border-radius: 15px 50px;
+        margin-top: -200px;
+    }
 
+    .popup-inner .close-btn {
+        top: 20px;
+        right: 46px;
+    }
+
+    .neon { font-size: 60px; }
   } 
   
  @media only screen and (min-width: 1200px) {
