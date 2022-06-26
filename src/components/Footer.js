@@ -8,7 +8,7 @@ const Footer = () => {
                 <p className="footer-title">Contact</p>
                 <a href="tel:19024068666" className="number"><b>Call us at (902) 406-8866</b></a>
                 <p className="address-time">1475 Bedford Hwy #111, Bedford, </p>
-                <p className="address-time">NS B4A 3Z5</p>
+                <p className="address-time address">NS B4A 3Z5</p>
                 <hr className="footer-line"/>
             </div>
             <div className="column" id="second">
@@ -24,7 +24,6 @@ const Footer = () => {
                 <p className="address-time"> 11:30 AM - 9:00 PM</p>
                 <p className="address-time">(Last Call 8:30 PM)</p>
                 <p className="footer-title">dine in or takeout or delivery</p>
-                <hr className="footer-line"/>
             </div>
         </div>
     )

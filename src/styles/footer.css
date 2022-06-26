@@ -101,9 +101,9 @@ a[href^="tel"] {
     }
 
     .footer-line {width: 50%;}
-    .address-time:nth-of-type(3) {padding-bottom: 20px;}
+    .address {padding-bottom: 20px;}
     .column:nth-of-type(3) {margin-top: 20px;}
-    .footer-title:nth-of-type(5) { margin-bottom: 30px;}
+    .footer-title:nth-of-type(5) { margin-bottom: 40px;}
 }
 
 @media only screen and (min-width: 600px) {
