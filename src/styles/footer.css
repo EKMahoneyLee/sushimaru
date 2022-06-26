@@ -13,11 +13,8 @@
     padding: 0 0 0 0;
   }
 
-  
-  .text1{
+.text1{
     font-family: 'Dancing Script', cursive;
-    /* font-family: 'Smooch', cursive; */
-    /* font-family: 'Merienda', cursive; */
     color: blanchedalmond;
     font-size: 145px;
     line-height: 130px;
@@ -36,14 +33,6 @@
     font-size: 1.5em;
 }
 
-.copyright{
-    color: gray;
-    margin-top: -90px;
-    padding-bottom: 50px;
-    margin-bottom: 0;
-    font-size: 1.5em;
-}
-
 a[href^="tel"] {
     color: chocolate;
     font-weight: 900;
@@ -54,39 +43,68 @@ a[href^="tel"] {
     padding: 7px 0 7px 35px;
 }
 
-  .address-time{
-      color: gray;
-      font-weight: 700;
-      font-size: 1.5em;
-  }
+.address-time{
+    color: gray;
+    font-weight: 700;
+    font-size: 1.5em;
+}
 
 
-  @media only screen and (max-width: 600px) {
+.footer-line {
+    border: 1px solid #fff;
+}
+
+.copyright{
+    color: gray;
+    margin-top: -90px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 414px) {
     .footer-container #first {order: 1;}
     .footer-container #second {order: 3;}
     .footer-container #third {order: 2;}
 
     .footer-container{
-        display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 50px 0 20px 0;
     }
-    
+
+    .footer-title, 
+    a[href^="tel"],
+    .address-time,
+    .copyright {
+        font-size: 1.0em;
+    }
+
     .column:nth-of-type(1),
+    .column:nth-of-type(2),
     .column:nth-of-type(3) {
         width: 300px;
     }
 
     .text1{
-        margin: 0 0 90px 0;
-        font-size: 70px;
-        width: 400px;
+        margin-bottom: 90px;
+        font-size: 60px;
+    }
+
+    .copyright{
+        width: 100%;
+        padding-bottom: 30px;
     }
 
     .container-middle{
         align-items: center;  
     }
-  }
+
+    .footer-line {width: 50%;}
+    .address-time:nth-of-type(3) {padding-bottom: 20px;}
+    .column:nth-of-type(3) {margin-top: 20px;}
+    .footer-title:nth-of-type(5) { margin-bottom: 30px;}
+}
 
 @media only screen and (min-width: 600px) {
    
@@ -95,7 +113,6 @@ a[href^="tel"] {
     .footer-container #third {order: 2;}
 
     .footer-container{
-        display: flex;
         flex-direction: column;
         align-items: center; 
     }
