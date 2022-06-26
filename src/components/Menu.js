@@ -27,10 +27,10 @@ const Gallery1 = () => {
          <img src={m3} alt="sushi"></img>
          <span>Squid Teriyaki</span>
       </div>
-      <div className="box">
+      {/* <div className="box">
          <img src={m4} alt="sushi"></img>
          <span>Chicken Skewered</span>
-      </div>
+      </div> */}
       </div>
     </div>
   )

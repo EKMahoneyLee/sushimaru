@@ -1,7 +1,7 @@
 .footer-container{
     background-color: black;
     width: 100%;
-    padding-top: 50px;
+    padding: 150px 0;
     display: flex;
     align-items: baseline;
 }
@@ -13,13 +13,7 @@
     padding: 0 0 0 0;
   }
 
-  .copyright{
-      color: gray;
-      margin-top: -90px;
-      padding-bottom: 50px;
-      margin-bottom: 0;
-  }
-
+  
   .text1{
     font-family: 'Dancing Script', cursive;
     /* font-family: 'Smooch', cursive; */
@@ -28,36 +22,42 @@
     font-size: 145px;
     line-height: 130px;
     margin-top: 0;
-  }
+}
 
-  .container-middle{
-      display: flex;
-      flex-direction: column;  
-  }
+.container-middle{
+    display: flex;
+    flex-direction: column;  
+}
 
- .footer-title{
-      text-transform: uppercase;
-      font-weight: 900;
-      font-family: 'CeraPRO-Medium';
-  }
+.footer-title{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'CeraPRO-Medium';
+    font-size: 1.5em;
+}
 
-  a.number{
-      color: chocolate;
-      font-weight: 900;
-      font-size: 20px;
-      text-decoration: none;
-  }
+.copyright{
+    color: gray;
+    margin-top: -90px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
 
-  a[href^="tel"] {
-	font-size: 1.1em;
-	background: url(../assets/icons/icon_phone.svg) no-repeat 7px 7px;
-	background-size: 18px 18px;
-	padding: 7px 0 7px 35px;
+a[href^="tel"] {
+    color: chocolate;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1.8em;
+    background: url(../assets/icons/icon_phone.svg) no-repeat 7px 7px;
+    background-size: 18px 18px;
+    padding: 7px 0 7px 35px;
 }
 
   .address-time{
       color: gray;
       font-weight: 700;
+      font-size: 1.5em;
   }
 
 
