@@ -68,14 +68,13 @@ a[href^="tel"] {
     }
 
     .footer-title, 
-    a[href^="tel"],
     .address-time,
     .copyright {
         font-size: 1.0em;
     }
 
     a[href^="tel"] {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .column:nth-of-type(1),
