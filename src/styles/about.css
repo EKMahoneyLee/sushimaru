@@ -10,10 +10,10 @@
 }
 
 .left , .right{
-    width: 40%;
+    width: 30%;
     display: inline-block;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     color: black;
     margin:  20px 20px;

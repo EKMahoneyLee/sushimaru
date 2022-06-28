@@ -1,12 +1,13 @@
 .footer-container{
     background-color: rgba(0,0,0,.9);
     width: 100%;
-    padding: 150px 0;
+    padding: 50px 0 0 0;
     display: flex;
     align-items: baseline;
 }
 
 .footer-container .column {
+    flex: 1 1 clamp(20ch, calc(1 / 4 * 100%), 100%);
     display:inline-block;
     min-height: 150px;
     padding: 0 30px;
@@ -14,10 +15,11 @@
 
 .text1{
     font-family: 'Dancing Script', cursive;
-    color: blanchedalmond;
-    font-size: 145px;
-    line-height: 130px;
-    margin-top: 0;
+    color: white;
+    font-size: 45px;
+    /* line-height: 130px; */
+    margin: 0;
+    /* margin-bottom: 70px; */
 }
 
 .container-middle{
@@ -50,13 +52,13 @@ a[href^="tel"] {
 
 .copyright{
     color: gray;
-    margin-top: -90px;
-    padding-bottom: 50px;
+    /* margin-top: -90px; */
+    /* padding-bottom: 50px; */
     margin-bottom: 0;
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
     .footer-container #first {order: 1;}
     .footer-container #second {order: 3;}
     .footer-container #third {order: 2;}
@@ -152,4 +154,4 @@ a[href^="tel"] {
 
    
 } 
-  
+   */

@@ -3,6 +3,7 @@ import Popup from './components/Popup'
 import Main from './components/Main'
 import About from './components/About'
 import Menu from './components/Menu'
+import Contact from './components/Contact'
 import Footer from './components/Footer';
 
 import { useState, useEffect } from 'react';
@@ -22,6 +23,7 @@ function App() {
       <Main />     
       <About />
       <Menu />
+      <Contact />
       <Footer />
     </div>
   );

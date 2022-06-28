@@ -72,6 +72,13 @@ img {
   height: 500px;
 }
 
+.menu-contact {
+  color: rgba(154,154,154,.9);
+  background-color: rgba(164,164,164,.9);;
+  width: 60%;
+  margin: 60px auto 100px auto;
+}
+
 @media only screen and (max-width: 414px) {
   img {
     height: 400px;

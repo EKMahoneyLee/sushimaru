@@ -7,8 +7,13 @@ const About = () => {
       <div className="about">
         <h2 className="about-title">Strive not to be a success, but rather to be of value.</h2>
         <div className="text-section">
-          <p className="left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <p className="right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>    
+          <p className="left">One of the great joys of life is sharing your heart with good people 
+          and eating carefully prepared FOOD! The reason why SUSHI MARU should exist!</p>
+          <p className="right">A cozy and comfortable atmosphere! <br/>
+                              Chefs who dream of being the best chefs!<br/>
+                              Carefully selected fresh ingredients!<br/>
+                              Friendly service!<br/>
+                              The best taste are plated in front of you!</p>    
         </div>
       </div>
     </>
