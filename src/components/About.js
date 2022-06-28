@@ -13,7 +13,7 @@ const About = () => {
               which is why we are commited to providing a delectable dining experience! <br/>
               Our food is expertly prepared using carefully 
               selected fresh ingredients and served in a comfortable and friendly atmosphere. <br/>
-              At Sushi Maru, the best taste is plated in front of you! </p>
+              <strong>At Sushi Maru, the best taste is plated in front of you! </strong></p>
         </div>
       </div>
       <hr className="menu-contact"></hr>

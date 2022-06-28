@@ -9,7 +9,7 @@ const Popup = (props) => {
                 >CLOSE</button>
                 {/* { props.children } */}
                 <article className="neon-text">
-                    <h1 className='neon'> Opening <span>Soon</span></h1>
+                    <h1 className='neon'> Opening <span> July 4</span></h1>
                 </article>
             </div>            
         </div>

@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="column">
         <h2 className="contact-title">Hours</h2>
         <p className="contact-content">Monday - Saturday, 11:30am to 9pm</p>
-        <p className="contact-content">(Last Call 8:30 PM)</p>
+        <p className="contact-content">Last Order 8:30 PM</p>
         <p className="contact-content">Closed Sundays </p>
       </div>
       <div className="column">

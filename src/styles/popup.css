@@ -57,7 +57,7 @@ article.neon-text {
         max-width: 350px;
         height: auto;
         padding: 30px 5px;
-        border-radius: 15px 50px;
+        border-radius: 15px;
     }
 
     .popup-inner .close-btn {
@@ -74,7 +74,7 @@ article.neon-text {
         max-width: 400px;
         height: auto;
         padding: 30px;
-        border-radius: 15px 50px;
+        border-radius: 15px;
         margin-top: -200px;
     }
 
@@ -90,7 +90,7 @@ article.neon-text {
     .popup-inner {
         max-width: 600px;
         height: 350px;
-        border-radius: 15px 50px;
+        border-radius: 15px;
     }
 
     article.neon-text { padding: 110px 20px; }
@@ -104,8 +104,8 @@ article.neon-text {
 
 @media only screen and (min-width: 992px) {
     .popup-inner {
-        max-width: 400px;
-        height: auto;
+        max-width: 700px;
+        height: 500px;
         padding: 30px;
         border-radius: 15px 50px;
         margin-top: -200px;
@@ -116,9 +116,7 @@ article.neon-text {
         right: 46px;
     }
 
-    .neon { font-size: 60px; }
+    .neon { font-size: 100px;
+    line-height: 180px; }
   } 
   
- @media only screen and (min-width: 1200px) {
- 
-  }
