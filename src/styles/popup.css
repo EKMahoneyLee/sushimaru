@@ -103,17 +103,15 @@ article.neon-text {
 } 
 
 @media only screen and (min-width: 992px) {
+    .popup {
+        top: 20%;
+    }
     .popup-inner {
         max-width: 700px;
         height: 500px;
         padding: 30px;
         border-radius: 15px 50px;
         margin-top: -200px;
-    }
-
-    .popup-inner .close-btn {
-        top: 20px;
-        right: 46px;
     }
 
     .neon { font-size: 100px;
