@@ -1,0 +1,57 @@
+.gallery-container {
+  margin: 0 0 50px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-container div.gallery-box {
+  min-width: 400px;
+  height: 400px;
+  margin: 0 20px 20px 0;
+  position: relative;
+  box-shadow: rgb(38, 57, 77) 0px 20px 20px -10px;
+}
+
+.gallery-container img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.dine-title {
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 1.5em;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.gallery-container div.gallery-box:hover .dine-title,
+.gallery-container div.gallery-box:hover .dine-discription {
+  visibility: visible;
+  opacity: 1;
+}
+
+.gallery-container div.gallery-box:hover img {
+  opacity: .8;
+}
+
+.dine-discription {
+  position: absolute;
+  top: 45%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 1.5em;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}

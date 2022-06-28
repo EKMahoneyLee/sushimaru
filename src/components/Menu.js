@@ -30,7 +30,7 @@ const Gallery1 = () => {
             <div className="takeout">Take Out</div></figure>
          </div>
       </div>
-      <hr className="menu-contact"></hr>
+      {/* <hr className="menu-contact"></hr> */}
     </>
   )
 }

@@ -3,6 +3,8 @@ import Popup from './components/Popup'
 import Main from './components/Main'
 import About from './components/About'
 import Menu from './components/Menu'
+import AboutKang from './components/AboutKang'
+import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 import Footer from './components/Footer';
 
@@ -23,6 +25,8 @@ function App() {
       <Main />     
       <About />
       <Menu />
+      <AboutKang />
+      <Gallery />
       <Contact />
       <Footer />
     </div>

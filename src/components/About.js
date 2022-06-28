@@ -1,21 +1,22 @@
 import React from "react";
 import '../styles/about.css'; 
+import maru from '../assets/images/maru.png';
 
 const About = () => {
   return (
     <>
       <div className="about">
-        <h2 className="about-title">Strive not to be a success, but rather to be of value.</h2>
+        <h2 className="about-title">To Eat Is A Necessity, But To Eat Joyously Is An Art</h2>
         <div className="text-section">
-          <p className="left">One of the great joys of life is sharing your heart with good people 
-          and eating carefully prepared FOOD! The reason why SUSHI MARU should exist!</p>
-          <p className="right">A cozy and comfortable atmosphere! <br/>
-                              Chefs who dream of being the best chefs!<br/>
-                              Carefully selected fresh ingredients!<br/>
-                              Friendly service!<br/>
-                              The best taste are plated in front of you!</p>    
+          <img className="left logo" src={maru} alt="logo"></img>
+          <p className="right">We believe the best joy in life is sharing great food with great people, 
+              which is why we are commited to providing a delectable dining experience! <br/>
+              Our food is expertly prepared using carefully 
+              selected fresh ingredients and served in a comfortable and friendly atmosphere. <br/>
+              At Sushi Maru, the best taste is plated in front of you! </p>
         </div>
       </div>
+      <hr className="menu-contact"></hr>
     </>
   )
 }
