@@ -8,6 +8,7 @@
 
 body{
   font-family: 'nanumsquare';
+  cursor: url('./assets/images/maru1.png') 4 12 , auto;
 }
 
 h1{
