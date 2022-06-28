@@ -20,9 +20,10 @@ const Footer = () => {
             <div className="column" id="third">
                 <p className="footer-title">open Hours</p>
                 <p className="address-time">Mon-Sat: 6 DAYS A WEEK</p>
+                <p className="address-time">Sunday Closed</p>
                 <p className="address-time"> 11:30 AM - 9:00 PM</p>
                 <p className="address-time">(Last Call 8:30 PM)</p>
-                <p className="footer-title">dine in or takeout or delivery</p>
+                <p className="footer-title">dine in / takeout / delivery</p>
             </div>
         </div>
     )
