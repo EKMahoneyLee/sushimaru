@@ -12,12 +12,6 @@
     margin:  20px 20px;
 }
 
-/* .logo {
-    width: 10px;
-    height: 200px;
-    padding: auto;
-} */
-
 .kang-left {
     font-size: 1.5em;
     line-height: 40px;
@@ -60,7 +54,7 @@
     }
 
     .kang-left , .kang-right{
-        width: 50%;
+        width: 30%;
     }
 
     .logo {
