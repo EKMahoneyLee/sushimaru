@@ -1,12 +1,10 @@
 import React from "react";
 import '../styles/about.css'; 
-import maru from '../assets/images/maru-.png';
 
 const About = () => {
   return (
     <>
       <div className="about">
-      {/* <span> <img className="left logo" src={maru} alt="logo"></img></span> */}
         <h2 className="about-title">To Eat Is A Necessity, But To Eat Joyously Is An Art </h2>
         <div className="about-section">
          
