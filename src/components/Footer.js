@@ -6,10 +6,12 @@ import maru from '../assets/images/maru-.png';
 const Footer = () => {
     return (
         <div className="footer-column" >
-            <div className=" container-middle" id="second">
-                <h1 className="text1">Sushi     {<span> <img className="left logo" src={maru} alt="logo"></img></span> } Maru</h1>     
-                <p className="copyright">© {new Date().getFullYear()} Sushi Maru. All Rights Reserved.</p>
+            <div className="text">
+                <h1 className="text1">Sushi </h1>    
+                <span> <img className="logo" src={maru} alt="logo"></img></span>
+                <h1 className="text1"> Maru</h1>     
             </div>
+                <p className="copyright">© {new Date().getFullYear()} Sushi Maru. All Rights Reserved.</p>
         </div>
     )
 }
