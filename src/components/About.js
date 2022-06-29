@@ -6,9 +6,10 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <h2 className="about-title">To Eat Is A Necessity, But To Eat Joyously Is An Art</h2>
+      {/* <span> <img className="left logo" src={maru} alt="logo"></img></span> */}
+        <h2 className="about-title">To Eat Is A Necessity, But To Eat Joyously Is An Art </h2>
         <div className="about-section">
-          <img className="left logo" src={maru} alt="logo"></img>
+         
           <p className="right">We believe the best joy in life is sharing great food with great people, 
               which is why we are commited to providing a delectable dining experience! <br/>
               Our food is expertly prepared using carefully 
