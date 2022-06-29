@@ -32,8 +32,7 @@
 }
 
 figure {
-  flex: 1 1 clamp(20ch, 500px, 100%);
-
+  flex: 1 1 clamp(20ch, calc(1 / 3 * 100%), 100%);
 	background: #fff;
 	overflow: hidden;
 }
@@ -45,8 +44,8 @@ figure {
 	transition: 1.3s ease-in-out;
   display: block;
   width: 100%;
-  min-width: 500px;
-  height: 500px;
+  min-width: 360px;
+  height: 400px;
 }
 
 .container figure:hover img {
@@ -75,7 +74,7 @@ figure {
 
 @media only screen and (max-width: 414px) {
   img {
-    height: 400px;
+    height: 300px;
   }
 
   .takeout {
@@ -95,11 +94,11 @@ figure {
 
 @media only screen and (min-width: 415px) {
   img {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
   }
 
   .takeout {
-    /* right: 20%; */
+    right: 20%;
   }
 }

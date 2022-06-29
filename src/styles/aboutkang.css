@@ -71,12 +71,12 @@
     }
 
     .kang-left , .kang-right{
-        width: 60%;
+        width: 78%;
     }
 
     .kang-left {
-        font-size: 3.5em;
-        line-height: 100px;
+        font-size: 25px;
+        line-height: 50px;
         padding: 50px 0;
     }
 }
