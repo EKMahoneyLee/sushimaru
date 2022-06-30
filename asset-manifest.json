@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.329046dc.css",
+    "main.js": "/static/js/main.0542e269.js",
+    "static/js/787.87ae6bcc.chunk.js": "/static/js/787.87ae6bcc.chunk.js",
+    "static/media/takeout.png": "/static/media/takeout.37cb7aa769781b54d937.png",
+    "static/media/main.jpg": "/static/media/main.85bae891573133c9296e.jpg",
+    "static/media/dine.png": "/static/media/dine.b869d6cf9a7ac911f721.png",
+    "static/media/m4.png": "/static/media/m4.70f3854ad9adda15b9c8.png",
+    "static/media/m1.png": "/static/media/m1.bf26a755c22247f54d0d.png",
+    "static/media/m5.png": "/static/media/m5.e16bb5e1f8b8dd113248.png",
+    "static/media/m2.png": "/static/media/m2.245062907a3ab40a2eb0.png",
+    "static/media/m3.png": "/static/media/m3.a9141dc2e26cede92343.png",
+    "static/media/m6.png": "/static/media/m6.9f747df4303c83f02662.png",
+    "static/media/dinein.pdf": "/static/media/dinein.57579a72b430a8336ec5.pdf",
+    "static/media/delivery.png": "/static/media/delivery.6f8311a642a9f9362b01.png",
+    "static/media/takeout.pdf": "/static/media/takeout.0855d83fffe7795d3d91.pdf",
+    "static/media/maru-.png": "/static/media/maru-.6a3550e5837cec3c0df3.png",
+    "static/media/maru.png": "/static/media/maru.e03c8d39fec95447d47b.png",
+    "index.html": "/index.html",
+    "main.329046dc.css.map": "/static/css/main.329046dc.css.map",
+    "main.0542e269.js.map": "/static/js/main.0542e269.js.map",
+    "787.87ae6bcc.chunk.js.map": "/static/js/787.87ae6bcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.329046dc.css",
+    "static/js/main.0542e269.js"
+  ]
+}
