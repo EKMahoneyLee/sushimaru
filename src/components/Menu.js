@@ -7,7 +7,7 @@ import dine from '../assets/images/dine.png';
 import takeout from '../assets/images/takeout.png';
 import delivery from '../assets/images/delivery.png';
 
-const Gallery1 = () => {   
+const Menu = () => {   
   return (
    <>
       <div className="title-container">
@@ -35,4 +35,4 @@ const Gallery1 = () => {
   )
 }
 
-export default Gallery1;
+export default Menu;
