@@ -19,10 +19,16 @@ const Gallery = () => {
             <p className="dine-discription">이것은 회 비빔밥이다. </p> */}
          </div>
          <div className="gallery-box">
-            <img src={m2} alt="sushi" />
+             <img src={m6 } alt="takeout" />   
             {/* <h4 className="dine-title">회초밥 </h4>
             <p className="dine-discription">이것은 회 비빔밥이다. </p> */}
          </div>
+         <div className="gallery-box">
+            <img src={m5} alt="sushi" />
+            {/* <h4 className="dine-title">회초밥 </h4>
+            <p className="dine-discription">이것은 회 비빔밥이다. </p> */}
+         </div>
+         
          <div className="gallery-box">
             <img src={m3 } alt="takeout" />   
             {/* <h4 className="dine-title">회초밥 </h4>
@@ -34,15 +40,12 @@ const Gallery = () => {
             <p className="dine-discription">이것은 회 비빔밥이다. </p> */}
          </div>
          <div className="gallery-box">
-            <img src={m5} alt="sushi" />
+            <img src={m2} alt="sushi" />
             {/* <h4 className="dine-title">회초밥 </h4>
             <p className="dine-discription">이것은 회 비빔밥이다. </p> */}
          </div>
-         <div className="gallery-box">
-             <img src={m6 } alt="takeout" />   
-            {/* <h4 className="dine-title">회초밥 </h4>
-            <p className="dine-discription">이것은 회 비빔밥이다. </p> */}
-         </div>
+      
+      
       </div>
     </>
   )

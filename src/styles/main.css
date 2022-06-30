@@ -1,6 +1,6 @@
 .bg {
     background-attachment: fixed;
-    background-image: url("../assets/images/main.jpg");
+    background-image: url("../../public/main.jpg");
     height: 100vh; 
     background-position: center;
     background-repeat: no-repeat;

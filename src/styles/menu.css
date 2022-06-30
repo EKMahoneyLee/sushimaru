@@ -45,7 +45,7 @@ figure {
   display: block;
   width: 100%;
   min-width: 360px;
-  height: 550px;
+  height: 600px;
 }
 
 .container figure:hover img {
