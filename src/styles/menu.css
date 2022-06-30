@@ -17,7 +17,7 @@
 .container .box1,
 .container .box2,
 .container .box3 {
-  /* flex: 1 1 clamp(20ch, calc(1 / 4 * 100%), 100%); */
+  flex: 1 1 clamp(20ch, calc(1 / 4 * 100%), 100%);
   position: relative;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
   border-radius: 5px;
@@ -32,8 +32,8 @@
 }
 
 figure {
-  flex: 1 1 clamp(20ch, calc(1 / 3 * 100%), 100%);
-	background: #fff;
+  /* flex: 1 1 clamp(20ch, calc(1 / 3 * 100%), 100%); */
+	/* background: #fff; */
 	overflow: hidden;
 }
 
@@ -45,7 +45,7 @@ figure {
   display: block;
   width: 100%;
   min-width: 360px;
-  height: 400px;
+  height: 550px;
 }
 
 .container figure:hover img {
@@ -74,7 +74,7 @@ figure {
 
 @media only screen and (max-width: 414px) {
   img {
-    height: 300px;
+    height: 400px;
   }
 
   .takeout {
@@ -93,12 +93,12 @@ figure {
 }
 
 @media only screen and (min-width: 415px) {
-  img {
-    height: 300px;
-    width: 300px;
-  }
+  /* img {
+    height: 100%;
+    max-width: 100%;
+  } */
 
-  .takeout {
+  /* .takeout {
     right: 20%;
-  }
+  } */
 }

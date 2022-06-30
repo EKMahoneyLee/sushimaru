@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/aboutkang.css'; 
-import maru from '../assets/images/maru.png';
+// import maru from '../assets/images/maru.png';
 
 const AboutKang = () => {
   return (
