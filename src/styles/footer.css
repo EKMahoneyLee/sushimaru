@@ -9,13 +9,15 @@
   padding-bottom: 50px;
 }
 
+img.logo {
+ padding: 5px 0;
+}
+
 .text1{
   color: white;
   margin: 0;
   text-transform: uppercase;
 }
-
-
 
 .copyright{
   color: gray;
@@ -28,9 +30,14 @@
 }
 
 @media only screen and (max-width: 414px) {
-  .text1{ font-size: 35px; }
+  .text1{ font-size: 25px; }
   img.logo { margin-top: 0; }
   .text { margin-top: 10px; }
+
+  img.logo {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media only screen and (min-width: 415px) {
@@ -48,8 +55,8 @@
   }
 
   img.logo {
-    width: 33px;
-    height: 33px;
+    width: 70px;
+    height: 70px;
   }
 
   .text1{ font-size: 50px; }
