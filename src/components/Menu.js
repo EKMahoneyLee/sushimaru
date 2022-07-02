@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/menu.css';
-import dinein from '../assets/dinein.pdf'
-import take from '../assets/takeout.pdf'
+// import dinein from '../assets/dinein.pdf'
+// import take from '../assets/takeout.pdf'
 
 import dine from '../assets/images/dine.png';
 import takeout from '../assets/images/takeout.png';
@@ -15,8 +15,10 @@ const Menu = () => {
       </div>
       <div className="container">
          <div className="box1">
-            <figure><a  href = {dinein} target = "_blank" rel="noreferrer" ><img src={dine} alt="dine" />
-            </a>
+            <figure>
+               {/* <a  href = {dinein} target = "_blank" rel="noreferrer" > */}
+                  <img src={dine} alt="dine" />
+            {/* </a> */}
             <div className="dine">Dine In</div></figure>
          </div>
 
@@ -25,8 +27,10 @@ const Menu = () => {
          </div>
 
          <div className="box3">
-         <figure> <a  href = {take} target = "_blank" rel="noreferrer" ><img src={takeout } alt="takeout" />   
-            </a>
+         <figure> 
+            {/* <a  href = {take} target = "_blank" rel="noreferrer" > */}
+               <img src={takeout } alt="takeout" />   
+            {/* </a> */}
             <div className="takeout">Take Out</div></figure>
          </div>
       </div>

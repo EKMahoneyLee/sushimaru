@@ -2,8 +2,8 @@ import './App.css';
 import Popup from './components/Popup'
 import Main from './components/Main'
 import About from './components/About'
-// import Menu from './components/Menu'
-import Menu1 from './components/Menu1'
+import Menu from './components/Menu'
+// import Menu1 from './components/Menu1'
 import AboutKang from './components/AboutKang'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
@@ -25,7 +25,7 @@ function App() {
       <Popup trigger={timedPopup} setTrigger={setTimedPopup} />
       <Main />     
       <About />
-      <Menu1 />
+      <Menu />
       <AboutKang />
       <Gallery />
       <Contact />
