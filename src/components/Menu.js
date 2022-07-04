@@ -18,7 +18,7 @@ const Menu = () => {
             <figure>
                <a  href = {dinein} target = "_blank" rel="noreferrer" >
                   <img src={dine} alt="dine" />
-            </a>
+               </a>
             <div className="dine">Dine In</div></figure>
          </div>
 
