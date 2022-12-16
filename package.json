@@ -10,10 +10,12 @@
     "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-alice-carousel": "^2.6.1",
+    "react-animate-height": "^3.1.0",
     "react-carousel-minimal": "^1.4.1",
     "react-dom": "^18.1.0",
     "react-pdf": "^5.7.2",
     "react-scripts": "5.0.1",
+    "sass": "^1.54.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.4.4"
   }
 }

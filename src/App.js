@@ -1,34 +1,39 @@
-import './App.css';
-import Popup from './components/Popup'
-import Main from './components/Main'
-import About from './components/About'
-import Menu from './components/Menu'
-// import Menu1 from './components/Menu1'
-import AboutKang from './components/AboutKang'
-import Gallery from './components/Gallery'
-import Contact from './components/Contact'
-import Footer from './components/Footer';
-
 import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
+import './App.scss';
+import Popup from './components/popup/Popup'
+import Header from './components/header/Header'
+import About from './pages/about/About'
+import Dinein from './pages/menu/Dinein'
+import Takeout from './pages/menu/Takeout'
+import Lunch from './pages/menu/Lunch'
+import Footer from './components/footer/Footer';
 
 function App() {
   const [timedPopup, setTimedPopup] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setTimedPopup(true);
-    }, 1000)
-  }, []);
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setTimedPopup(true);
+  //   }, 1000)
+  // }, []);
 
   return (
     <div className="App">  
       <Popup trigger={timedPopup} setTrigger={setTimedPopup} />
-      <Main />     
-      <About />
-      <Menu />
-      <AboutKang />
-      <Gallery />
-      <Contact />
+      <Header />
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' exact element={<About />}/>
+        <Route path='/dinein' exact element={<Dinein/>}/>
+        <Route path='/takeout' exact element={<Takeout />}/>
+        <Route path='/lunch' exact element={<Lunch />}/>
+        {/* <Route path='/gallery' exact element={<Gallery />}/> */}
+      </Routes>  
+      </BrowserRouter>   
       <Footer />
     </div>
   );

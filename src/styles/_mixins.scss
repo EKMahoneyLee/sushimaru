@@ -1,0 +1,47 @@
+//Media Queries
+@mixin MQ($canvas) {
+    // breakpoints
+  
+    @if $canvas == xs {
+      //xs
+      @media only screen and ($bp-min-xs) {
+        @content;
+      }
+    } @else if $canvas == sm {
+      //sm
+      @media only screen and ($bp-min-sm) {
+        @content;
+      }
+    } @else if $canvas == md {
+      //md
+      @media only screen and ($bp-min-md) {
+        @content;
+      }
+    } @else if $canvas == lg {
+      //lg
+      @media only screen and ($bp-min-lg) {
+        @content;
+      }
+    } @else if $canvas == lgr {
+      //lgr
+      @media only screen and ($bp-min-lgr) {
+        @content;
+      }
+    } @else if $canvas == xl {
+      //xl
+      @media only screen and ($bp-min-xl) {
+        @content;
+      }
+    } @else if $canvas == xlr {
+      //xlr
+      @media only screen and ($bp-min-xlr) {
+        @content;
+      }
+    } @else if $canvas == xxl {
+      //xxl
+      @media only screen and ($bp-min-xxl) {
+        @content;
+      }
+    }
+  }
+  

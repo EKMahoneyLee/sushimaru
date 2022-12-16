@@ -1,0 +1,17 @@
+@import 'mixins';
+
+// breakpoints
+$bp-min-xs: 'min-width: 321px';
+$bp-min-sm: 'min-width: 480px';
+$bp-min-md: 'min-width: 768px';
+$bp-min-lg: 'min-width: 1024px';
+$bp-min-lgr: 'min-width: 1158px';
+$bp-min-xl: 'min-width: 1180px';
+$bp-min-xlr: 'min-width: 1405px';
+$bp-min-xxl: 'min-width: 1920px';
+$bp-max-xs: 'max-width: 320px';
+$bp-max-sm: 'max-width: 480px';
+$bp-max-md: 'max-width: 767px';
+$bp-max-lg: 'max-width: 1024px';
+$bp-max-xl: 'max-width: 1180px';
+$bp-max-xxl: 'max-width: 1920px';
